@@ -8,8 +8,10 @@ public class HealthBarBehaviour : MonoBehaviour
 {
     [SerializeField]
     private HealthBehaviour _health;
+
     [SerializeField]
     private Gradient _healthGradient;
+
     [SerializeField]
     private Image _fill;
     private Slider _slider;
